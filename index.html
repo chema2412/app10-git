@@ -1,0 +1,767 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Desarrolla Aplicaciones Web</title>
+
+<!--Aqui  Esta El Primer Visor de imagenes -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!--Aqui Esta el Segundo Visor ee imagenes-->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!--Aqui esta el tercer visor de imagenes-->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine3/style.css" />
+<script type="text/javascript" src="engine3/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!--Aqui Esta El cuarto Visor De imagenes-->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine4/style.css" />
+<script type="text/javascript" src="engine4/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!--Aqui Esta El Quinto Visor De Imagenes-->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine5/style.css" />
+<script type="text/javascript" src="engine5/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/TemaApp7.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!-- grupo javascript-->
+<script src ="js/jquery-1.11.2.min.js"></script>
+<script src ="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src ="js/acciones.js"></script>-->
+<script src ="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<body onLoad="MM_preloadImages('imagenes/html5.jpg','imagenes/css3.jpg','imagenes/web2.jpg','imagenes/wamp2.jpg','imagenes/imagen1.png','imagenes/archivos/dreamweaver1.jpg','imagenes/archivos/Wamp2.jpg','imagenes/archivos/php2.jpg','imagenes/archivos/jquery.jpg')"><div data-role="page" id "Principal" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>Desarrollla Aplicaciones Web</h1>
+</div>
+<div data-role="main" class="ul-content">
+ <div data-role="collapsible" data-content-theme="false">
+  <h1> HTML Y HTML5 </h1>
+   <div>
+   <br>
+   </div>
+   <div> 
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('imagenSus_01','','imagenes/html5.jpg',1)"><img src="imagenes/html.jpg" width="40%" height="40%" id="imagenSus_01"></a> </div>
+  </div>
+</div>
+<div data-role="main" class="ul-content">
+ <div data-role="collapsible" data-content-theme="false">
+  <h1>CSS y CSS3</h1>
+   <div>
+   <br>
+   </div>
+   <div> 
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ImageSus_02','','imagenes/css3.jpg',1)"><img src="imagenes/css.jpg" width="40%" height="40%" id="ImageSus_02"></a> </div>
+    </div>
+    </div>
+        <div data-role="main" class="ul-content">
+ <div data-role="collapsible" data-content-theme="false">
+  <h1>Aplicaciones Web</h1>
+   <div>
+   <br>
+   </div>
+   <div> 
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('imagenSus_03','','imagenes/web2.jpg',1)"><img src="imagenes/web1.jpg" width="40%" height="40%" id="imagenSus_03"></a> </div>
+</div>
+    <div data-role="main" class="ul-content">
+ <div data-role="collapsible" data-content-theme="false">
+  <h1>WAMP</h1>
+   <div>
+   <br>
+   </div>
+   <div> 
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('imagenSus-04','','imagenes/wamp2.jpg',1)"><img src="imagenes/wamp1.jpg" width="40%" height="40%" id="imagenSus-04"></a> </div>
+    </div>
+    </div>
+    </div>
+<div>
+ <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Html </h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Etiquetas de HTML</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+  <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>HTML 5</h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Nuevos Elementos</h2>
+   <p>Etiquetas,inputs,formularios</p>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>¿Que Es CSS?</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>CSS</h2>
+	   <p>Selectores y Pseudo-Clases</p>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>¿Que Es Adobe Dreamweaver CS6?</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>WAMP</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Jquery</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>PHP</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Datos del desarrollador</h2>
+   </a>
+   </li>
+  </ul>
+</div>
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+     <img src ="res/android/mdpi.png" width="46" height="46">
+    </div>
+     <h3>Jesus Emmanuel González Ramírez</h3>
+     <h4>Tutorial DAW</h4>
+   </div>
+  </div>
+ <div data-role="page" id="Pagina1" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>Html</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div > 
+     <h2>Hyper  Text Markup  Language ("HTML")</h2>
+      <h3>Paginas Estáticas</h3>
+       <p>HTML Dio inicio en el año de 1993, Desglosando eso se hizo  una version de de html nueva HTML 2.0 surgiendo en el año de 1995. A inicios del año de 1997 se dio a conocer una version nueva de HTML ("HTML 3.2"). Llegando asi hasta las paginas dinamicas. Las Paginas WEB Estaticas Son Basicamente informativas y estan enfocadas principalmente a mostrar una información permanente donde el navegante se limita a obtener dicha información sin poder intercactuar con la pagina visitada </p>
+       <h3>Paginas Dinamicas</h3>
+       <p>Estas Se dieron a conocer en el año de 1998 ("HTML 4.0") y 1999 ("HTML 4.01"). Las Paginas Web Dinamicas son aquellas en que la información presentada se genera a partir de una petición del usuario de la pagina, Esto se Hace posible porque una pagina dinamica viene asociada con una base de datos desde la que permite visualizar la información contenida en ella</p>
+       <h3> Aplicaciones WEB </h3>
+       <p>Estas Aplicaciones revolucionan el lenguaje de HTML haciendo una version mejorada y muy facil de utlizar "HTML 5" se dio a conocer en el año de 2014. Las aplicaciones web reciben este nombre porque se ejecutan en la internet. Es decir que los datos o los archivos en los que trabajas son procesados y almacenados dentro de la web. Estas aplicaciones, por lo general, no necesitan ser instaladas en tu computador.
+El concepto de aplicaciones web está relacionado con el almacenamiento en la nube. Toda la información se guarda de forma permanente en grandes servidores de internet y nos envian a nuestros dispositivos o equipos los datos que requerimos en ese momento, quedando una copia temporal dentro de nuestro equipo. </p>
+    <div>
+      <div data-role="main" class="ui-content" align="center">
+<div style="width:80%">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="c"
+  <li class="ui-first-child ui-last-child">
+  <a href= "http://librosweb.es/"  data-role="button">
+  <h2>HTML</h2>
+  </a>
+  </ul>
+  </div>
+  </div>
+     </div>
+     <br>
+     <!-- Este Div Contine El primer Visor de imagenes -->
+     <div >
+      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/html2.jpg" alt="html2" title="html2" id="wows1_0"/></li>
+		<li><img src="data1/images/html1.jpg" alt="html1" title="html1" id="wows1_1"/></li>
+		<li><img src="data1/images/html3.jpg" alt="html3" title="html3" id="wows1_2"/></li>
+		<li><img src="data1/images/html4.jpg" alt="html4" title="html4" id="wows1_3"/></li>
+		<li><img src="data1/images/html5.jpg" alt="html5" title="html5" id="wows1_4"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/html6.jpg" alt="responsive slider" title="html6" id="wows1_5"/></a></li>
+		<li><img src="data1/images/html7.jpg" alt="html7" title="html7" id="wows1_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="html2"><span><img src="data1/tooltips/html2.jpg" alt="html2"/>1</span></a>
+		<a href="#" title="html1"><span><img src="data1/tooltips/html1.jpg" alt="html1"/>2</span></a>
+		<a href="#" title="html3"><span><img src="data1/tooltips/html3.jpg" alt="html3"/>3</span></a>
+		<a href="#" title="html4"><span><img src="data1/tooltips/html4.jpg" alt="html4"/>4</span></a>
+		<a href="#" title="html5"><span><img src="data1/tooltips/html5.jpg" alt="html5"/>5</span></a>
+		<a href="#" title="html6"><span><img src="data1/tooltips/html6.jpg" alt="html6"/>6</span></a>
+		<a href="#" title="html7"><span><img src="data1/tooltips/html7.jpg" alt="html7"/>7</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">http://wowslider.net/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+     </div>
+    </div>
+  </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+     <img src ="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Proyecto Final Tutorial DAW </h4>
+      <h3>Jesus Emmanuel González Ramírez</h3>
+   </div>
+  </div>
+  <div data-role="page" id="Pagina2" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>HTML</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div > 
+     <h2>Etiquetas</h2>
+      <p>El código en HTML está formado por un conjunto  de etiquetas (tags). El navegador interpreta estas etiquetas al momento de cargar la página. La mayoría de las etiquetas vienen en pares,  es decir: ("Etiqueta Apertura = Inicio") ("Etiqueta Cierre = Final (contienen una diagonal /)")</p>
+      <p>Tenemos algunas otras etiquetas que no vienen en pares, es decir, solo tiene etiqueta de apertura por ejemplo: ("Img" , "input" , "br" ).</p>
+      <h3>Elementos HTML</h3>
+      <p>Las etiquetas junto con su contenido, forman  lo que conocemos como un elemento HTML. ("abre 2h1") h1> Ejemplo h1> ("Cierra "h1")
+      <h3>Atributos En las Etiquetas</h3>
+      <p>La etiqueta de apertura de un elemento puede incluir varios atributos separados por espacios. Los atributos deben aparecer solo en las  etiquetas de apertura. Algunos elementos requieren ciertos atributos de forma obligatoria, mientras que otros son opcionales. La etiqueta de apertura de un elemento puede  contener atributos que proporcionan más  información sobre el elemento. (abre "p" ) p class=“mensaje”> Hola Mundo /p> (Cierra "p").La etiqueta de apertura de un elemento puede incluir varios atributos separados por espacios. Los atributos deben aparecer solo en las  etiquetas de apertura. Algunos elementos requieren ciertos atributos de forma obligatoria, mientras que otros son opcionales.</p>
+      <h3>Elementos De HTML</h3>
+      <p>Todos los elementos HTML se pueden  dividir en dos tipos básicos: ("Elementos en bloque","Elementos en línea").Los elementos pueden anidarse, es decir, podemos tener elementos HTML dentro de otro(s) elementos.</p>
+      <h4>Elementos en Bloque</h4>
+      <p>Un elemento en bloque es aquel que contiene un bloque significativo de contenido que debería mostrarse en su propia línea. Por ejemplo: párrafos, tablas,  listas, etc…</p>
+      <h4>Elementos En Linea</h4>
+      <p>Los elementos en línea usualmente contienen menos texto y se muestra junto a otro texto en la misma línea, cómo cuando se enfatizan palabras en una oración</p>
+      <h3>Atributos Estandar HTML</h3>
+      <h4>Class</h4>
+      <p>Indica la clase o clases a las cuales un elemento pertenece. Cualquier número de elementos pueden pertenecer a una clase. Un solo elemento puede pertenecer a muchas  clases</p>
+      <h4>Style</h4>
+      <p>Especifica las propiedades CSS de un elemento</p>
+      <h4>ID</h4>
+      <p>Especifica un identificador único para un elemento</p>
+      <div>
+       <div data-role="main" class="ui-content" align="center">
+       <div style="width:80%">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="c"
+       <li class="ui-first-child ui-last-child">
+       <a href= "https://www.brandominus.com/"  data-role="button">
+       <h2>Lista De Tags</h2>
+       </a>
+       </ul>
+       </div>
+       </div>
+     </div>
+     <!--Este Div Contiene El segundo visor de imagenes-->
+     <div>
+        <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/tem2.3.png" alt="tem2.3" title="tem2.3" id="wows2_0"/></li>
+		<li><img src="data2/images/tema2.1.jpg" alt="tema2.1" title="tema2.1" id="wows2_1"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/tema2.2.png" alt="wowslider" title="tema2.2" id="wows2_2"/></a></li>
+		<li><img src="data2/images/tema2.3.jpg" alt="tema2.3" title="tema2.3" id="wows2_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="tem2.3"><span><img src="data2/tooltips/tem2.3.png" alt="tem2.3"/>1</span></a>
+		<a href="#" title="tema2.1"><span><img src="data2/tooltips/tema2.1.jpg" alt="tema2.1"/>2</span></a>
+		<a href="#" title="tema2.2"><span><img src="data2/tooltips/tema2.2.png" alt="tema2.2"/>3</span></a>
+		<a href="#" title="tema2.3"><span><img src="data2/tooltips/tema2.3.jpg" alt="tema2.3"/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+     </div>
+    </div>
+  </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+     <img src ="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Proyecto Final Tutorial DAW </h4>
+      <h3>Jesus Emmanuel González Ramírez</h3>
+   </div>
+  </div>
+  <div data-role="page" id="Pagina3" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>HTML 5</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div > 
+     <h2>HTML 5</h2>
+      <p>HTML5 no es una reformulación de versiones previas.Este incluye la redefinición de elementos, la inclusión de nuevos elementos e incluye el uso de nuevas tecnologías como video, audio y canvas.</p>
+      <h2>Contenido</h2>
+      <h3>Semántica</h3>
+      <p>Secciones y Contenidos, Video y Audio,Formularios</p>
+      <h3>Conectividad</h3>
+      <p>Web Sockets, Servidor coloca datos en cliente WebRTC, (Real Time  Communications)</p>
+      <h3>Desconectado y Almacenamiento</h3>
+      <p>IndexedDB, Uso archivos desde  aplicaciones Web, Uso de la Caché</p>
+      <h3>Multimedia</h3>
+      <p>API de cámara, Subtítulos, Elementos de Audio y Video</p>
+      <h3>3D, Gráficos y Efectos
+      <p>WebGL - Canvas, API de texto para Canvas, SVG (Scalable Vector Graphics)</p>
+      <h3>CSS3 Styling</h3>
+      <p>Bordes, Animación, Tipografía, Responsive Design, Fondos</p>
+      <h3>Acceso al Dispositivo</h3>
+      <p>Eventos táctiles, Geolocalización, Detección de orientación  del dispositivo, API Pointer Lock</p>
+      <h3>Rendimiento</h3>
+      <p>Web Workers, XMLHttpRequest (Nivel 2), API Historial, API Drag and Drop, API Fullscreen</p>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('imagenSus-06','','imagenes/imagen1.png',1)"><img src="imagenes/imagen2.png" width="40%" height="40%" id="imagenSus-06"></a></div>
+  </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+     <img src ="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Proyecto Final </h4>
+      <h3>Jesus Emmanuel González Ramírez</h3>
+   </div>
+  </div>
+  <div data-role="page" id="Pagina4" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>Contenido Nuevo</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div > 
+     <h2>Etiquetas</h2>
+    <ul style="list-style:none;">
+     <li>"header"</li>
+     <li>"hgroup"</li>
+     <li>"nav"</li>
+     <li>"section"</li>
+     <li>"article"</li>
+     <li>"aside"</li>
+     <li>"footer"</li>
+     <li>"figure y figcaption"</li>
+     <li>"mark y time"</li>
+     <li>"video"</li>
+     <li>"audio"</li>
+    </ul>
+    <h2>Formularios</h2>
+    <p>Un formulario permite a un usuario ingresar  datos. La información que se ingresa se manda a un  servidor en un grupo de datos que consisten  del nombre de los elementos y sus valores.Para hacer uso de un formulario,  utilizaremos las etiquetas: ("form> /form>") Requiere de los atributos action y method,  los cuales son la URL del form-handler y el  método HTTP por el cual se envían los  datos, respectivamente.El valor por default de action es la URL  del documento actual.El valor por default de method es get (el  otro valor válido es post)form method=“get” action=“url”>/form>.input> Muchos de los elementos de un  formulario se crean con este elemento.
+Sus 3 atributos más comunes son: ("name","type","value") </p>
+     <h2>Que Son los INPUTS </h2>
+     <p>se traduce como Entrada. En informática se utilizan muchos estos conceptos. En informática,significa, por lo general, Entrada/Salida de información o datos.El elemento input además tiene un atributo  especial para poder hacer una lista, este  atributo es list</p>
+     <h2>Tipos De INPUT</h2>     
+    <ul style="list-style:none;">
+     <li>"text"</li>
+     <li>"Password"</li>
+     <li>"Date"</li>
+     <li>"time"</li>
+     <li>"color"</li>
+     <li>"range"</li>
+     <li>"Number"</li>
+     <li>"checkbox"</li>
+     <li>"email"</li>
+     <li>"hidden"</li>
+     <li>"file"</li>
+     <li>"radio"</li>
+    </ul>
+    <h2>Tipos De Validación de Formularios</h2>
+    <h3>Valor Faltante</h3>
+     <p>Este tipo de validación se ocasiona por el  nuevo atributo “required” el cual provoca  que si un campo está vacío, se ocasione un  error, por lo tanto será inválido.</p>
+    <h3>Diferente Tipo</h3>
+     <p>Este tipo de validación ocurre por ejemplo  cuando tenemos un "input type=”email”>" Si estamos en un navegador que soporte este atributo, entonces el navegador sabrá que un  email debe de llevar un símbolo @, si no lo  encuentra provocará una invalidación.</p>
+     <h3>por Patrón</h3>
+      <p>Este tipo de validación ocurre cuando nosotros definimos un patrón a seguir dentro de nuestro input, por ejemplo:, ("input type=”text” pattern=”[0-9]{16}”>"). Este patrón indica que debe de haber 16 caracteres los cuales podrán ser dígitos del0 al 9, caso contrario será inválido.</p>
+      <div>
+        <div data-role="main" class="ui-content" align="center">
+       <div style="width:80%">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="c"
+       <li class="ui-first-child ui-last-child">
+       <a href= "https://www.w3schools.com/"  data-role="button">
+       <h2>Lista De Tags</h2>
+       </a>
+       </ul>
+       </div>
+       </div>
+      </div>
+      <!--Este Div contiene el tercer visor de imagenes-->
+      <div>
+       <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container3">
+<div class="ws_images"><ul>
+		<li><img src="data3/images/tema4.1.jpg" alt="tema4.1" title="tema4.1" id="wows3_0"/></li>
+		<li><img src="data3/images/tema4.2.png" alt="tema4.2" title="tema4.2" id="wows3_1"/></li>
+		<li><img src="data3/images/tema4.3.jpg" alt="tema4.3" title="tema4.3" id="wows3_2"/></li>
+		<li><img src="data3/images/tema4.4.png" alt="tema4.4" title="tema4.4" id="wows3_3"/></li>
+		<li><a href="http://wowslider.com"><img src="data3/images/tema4.5.png" alt="jquery slider" title="tema4.5" id="wows3_4"/></a></li>
+		<li><img src="data3/images/tema4.6.png" alt="tema4.6" title="tema4.6" id="wows3_5"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="tema4.1"><span><img src="data3/tooltips/tema4.1.jpg" alt="tema4.1"/>1</span></a>
+		<a href="#" title="tema4.2"><span><img src="data3/tooltips/tema4.2.png" alt="tema4.2"/>2</span></a>
+		<a href="#" title="tema4.3"><span><img src="data3/tooltips/tema4.3.jpg" alt="tema4.3"/>3</span></a>
+		<a href="#" title="tema4.4"><span><img src="data3/tooltips/tema4.4.png" alt="tema4.4"/>4</span></a>
+		<a href="#" title="tema4.5"><span><img src="data3/tooltips/tema4.5.png" alt="tema4.5"/>5</span></a>
+		<a href="#" title="tema4.6"><span><img src="data3/tooltips/tema4.6.png" alt="tema4.6"/>6</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine3/wowslider.js"></script>
+<script type="text/javascript" src="engine3/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+      </div>
+    </div>
+  </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+     <img src ="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Proyecto Final Tutorial DAW</h4>
+      <h3>Jesus Emmanuel González Ramírez</h3>
+   </div>
+  </div>
+  <div data-role="page" id="Pagina5" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>CSS</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div > 
+     <h2>"Cascading Style Sheets u "Hojas de Estilo en Cascada"</h2>
+      <p>es un lenguaje usado para definir y crear la presentación de un documento estructurado escrito en HTML. CSS separa la estructura de un documento de su presentación. La información de estilo puede ser definida en un documento separado o en el mismo documento HTML.</p>
+     <h2>Evolución De CSS</h2>
+      <p>El organismo W3C (World Wide Web Consortium),  encargado de crear todos los estándares  relacionados con la web, propuso la creación de  un lenguaje de hojas de estilos específico para el lenguaje HTML 2 Propuestas: "CHS (Cascading HTML Sheets) por Hakon Wium Lie". "SSP (Stream-based Style Sheet Proposal) por  Bert Bos".</p>
+      <h3>Como Agregar Hojas De Estilo</h3>
+      <p>Existen tres formas de instertar CSS. Un estilo externo (“nombre_archivo.css ”). Un estilo interno ("style> h1 {color: red;} /style>"). Un estilo en la linea html (inline) ("p style="color:red; margin-left:20px">Un parrafo/p>")</p>
+      <h2> Sintaxis De CSS</h2>
+      <p>CSS tiene una sintaxis sencilla, que usa palabras clave (inglés) para especificar los nombres de las propiedades y la mayoría de los valores. Se especifica el elemento o elementos a aplicar el estilo (se pueden usar etiquetas, id o clases separadas o se pueden apilar).Vienen en pares de nombre/valor: name:value;Cada línea terminan con ";"</p>
+    </div>
+    <!--Este Div Contiene El Cuarto Visor  De imagenes-->
+    <div>
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container4">
+<div class="ws_images"><ul>
+		<li><img src="data4/images/visor.jpg" alt="visor" title="visor" id="wows4_0"/></li>
+		<li><img src="data4/images/visor_0.png" alt="Visor" title="Visor" id="wows4_1"/></li>
+		<li><img src="data4/images/visor2.jpg" alt="visor2" title="visor2" id="wows4_2"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data4/images/visor2_0.png" alt="cssslider" title="visor2" id="wows4_3"/></a></li>
+		<li><img src="data4/images/visor3.png" alt="visor3" title="visor3" id="wows4_4"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="visor"><span><img src="data4/tooltips/visor.jpg" alt="visor"/>1</span></a>
+		<a href="#" title="Visor"><span><img src="data4/tooltips/visor_0.png" alt="Visor"/>2</span></a>
+		<a href="#" title="visor2"><span><img src="data4/tooltips/visor2.jpg" alt="visor2"/>3</span></a>
+		<a href="#" title="visor2"><span><img src="data4/tooltips/visor2_0.png" alt="visor2"/>4</span></a>
+		<a href="#" title="visor3"><span><img src="data4/tooltips/visor3.png" alt="visor3"/>5</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">cssslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine4/wowslider.js"></script>
+<script type="text/javascript" src="engine4/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    </div>
+		<div>
+		  <div data-role="main" class="ui-content" align="center">
+          <div style="width:80%">
+          <ul data-role="controlgroup" data-type="vertical" data-theme="c"
+          <li class="ui-first-child ui-last-child">
+          <a href= "https://desarrolloweb.com/articulos"  data-role="button">
+          <h2>Css Info</h2>
+          </a>
+          </ul>
+          </div>
+         </div>
+		</div>
+  </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+     <img src ="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Proyecto Final Tutorial DAW </h4>
+      <h3>Jesus Emmanuel González Ramírez</h3>
+   </div>
+  </div>
+  <div data-role="page" id="Pagina6" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>CSS</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div > 
+     <h2>Tipos De Selectores</h2>
+      <p> Definen que elementos HTML serán  afectados por las declaraciones. Existen varios tipos de selectores, "Elementos Clases", "ID’s", "Descendientes", "Hijos Adyacentes (hermanos o siblings)", etc.</p>
+		 <h3>Selector Universal</h3>
+		 <p>El selector universal, selecciona todos los  elementos de un documento HTML.Se denota por  un “*”, * {  margin:0;, padding:0;, box-sizing: border-box; } </p>
+		 <h3>Selectores tipo Etiqueta</h3>
+		 <p>Selectores tipo etiqueta o de elementos,  son los más simples y comunes. Ejemplo h1 {color:blue;}body {background-color:red;} </p>
+		 <h3>Selectores de Clase</h3>
+		 <p>Se utiliza para especificar un estilo a un  grupo de elementos con la misma clase.Su principal característica, es que se identifica por un punto. “.”</p>
+		 <h3>Selectores de ID</h3>
+		 <p>Se utiliza para especificar un estilo a un  elemento mediante su id.
+Su principal característica es que se  identifica por un sharp o gato “#”.("div id=”contenido”> Esto es un div /div>"), #contenido { background-image: url(“perro.jpg”); } </p>
+		 <h3>Selectores Descendientes</h3>
+		 <p>Afectan a elementos que están contenidos dentro de otro(s) elementos.
+Lo usamos mediante el uso de un espacio entre cada elemento. "ul li {font-size: 17px;margin-top: 14px;}"</p>
+		 <h3>Agrupación de Selectores</h3>
+		 <p>La agrupación de selectores se utiliza cuando uno o más selectores tienen las  mismas propiedades.Esto nos ayudará a ahorrar líneas de  código. Agrupamos con el uso de la coma “,”</p>
+		 <h2>Las Pseudo-Clases</h2>
+		 <ul style="list-style: none">
+		     <li>:first-child</li>
+			 <li>:last-child</li>
+			 <li>:link</li>
+			 <li>:visited</li>
+			 <li>:active</li>
+			 <li>:hover</li>
+		 </ul>
+		 <h2>Las Pseudo-Elementos</h2>
+		 <ul style="list-style: none">
+		     <li>:first-letter</li>
+			 <li>:first-line</li>
+			 <li>:before</li>
+			 <li>:after</li>
+			 <li>:selection</li>
+			 <li>:nth-child(#)</li>
+		 </ul>
+    </div>
+  </div>
+  <!--Este Div Contiene El Cuarto Visor  De imagenes-->
+    <div>
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container4">
+<div class="ws_images"><ul>
+		<li><img src="data4/images/visor.jpg" alt="visor" title="visor" id="wows4_0"/></li>
+		<li><img src="data4/images/visor_0.png" alt="Visor" title="Visor" id="wows4_1"/></li>
+		<li><img src="data4/images/visor2.jpg" alt="visor2" title="visor2" id="wows4_2"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data4/images/visor2_0.png" alt="cssslider" title="visor2" id="wows4_3"/></a></li>
+		<li><img src="data4/images/visor3.png" alt="visor3" title="visor3" id="wows4_4"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="visor"><span><img src="data4/tooltips/visor.jpg" alt="visor"/>1</span></a>
+		<a href="#" title="Visor"><span><img src="data4/tooltips/visor_0.png" alt="Visor"/>2</span></a>
+		<a href="#" title="visor2"><span><img src="data4/tooltips/visor2.jpg" alt="visor2"/>3</span></a>
+		<a href="#" title="visor2"><span><img src="data4/tooltips/visor2_0.png" alt="visor2"/>4</span></a>
+		<a href="#" title="visor3"><span><img src="data4/tooltips/visor3.png" alt="visor3"/>5</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">cssslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine4/wowslider.js"></script>
+<script type="text/javascript" src="engine4/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+     <img src ="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Proyecto Final Tutorial DAW </h4>
+      <h3>Jesus Emmanuel González Ramírez</h3>
+   </div>
+  </div>
+  <div data-role="page" id="Pagina7" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>¿Que Es Adobe Dreamweaver CS6?</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div > 
+     <h2>Adobe Dreamweaver CS6</h2>
+      <p>Adobe Dreamweaver es una aplicación en programa de estudio (basada en la forma de estudio de Adobe Flash) que está destinada a la construcción, diseño y edición de sitios, vídeos y aplicaciones Web basados en estándares. Creado inicialmente por Macromedia (actualmente producido por Adobe Systems) es uno de los programas más utilizados en el sector del diseño y la programación web por sus funcionalidades, su integración con otras herramientas como Adobe Flash y, recientemente, por su soporte de los estándares del World Wide Web Consortium.</p>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('imagenSus_001','','imagenes/archivos/dreamweaver1.jpg',1)"><img src="imagenes/archivos/Dreamweaver.jpg" width="40%" height="40%" id="imagenSus_001"></a>
+    </div>
+  </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+     <img src ="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Proyecto Final Tutorial DAW</h4>
+      <h3>Jesus Emmanuel González Ramírez</h3>
+   </div>
+  </div>
+  <div data-role="page" id="Pagina8" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>WAMP</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div > 
+     <h2>¿Que Es Wamp?</h2>
+      <p>Un servidor WAMP es un PC con Windows que dispone de un servidor Apache, un gestor de bases de datos MySQL y el lenguaje de programación PHP. Las siglas WAMP son un acrónimo de Windows + Apache + MySQL + PHP. Al igual que WAMP, también existen los servidores LAMP que son lo mismo pero en un sistema Linux.</p>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ImagenSus_002','','imagenes/archivos/Wamp2.jpg',1)"><img src="imagenes/archivos/Wamp1.jpg" width="40%" height="40%" id="ImagenSus_002"></a>
+	   <div>
+		   <div data-role="main" class="ui-content" align="center">
+           <div style="width:80%">
+           <ul data-role="controlgroup" data-type="vertical" data-theme="c"
+           <li class="ui-first-child ui-last-child">
+           <a href= "http://recursostic.educacion.es/observatorio/"  data-role="button">
+           <h2>WAMP</h2>
+           </a>
+           </ul>
+           </div>
+         </div>
+		 </div>
+    </div>
+  </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+     <img src ="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Proyecto Final Tutorial DAW</h4>
+      <h3>Jesus Emmanuel González Ramírez</h3>
+   </div>
+  </div>
+  <div data-role="page" id="Pagina9" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>Jquery Movile</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div > 
+     <h2>Jquery</h2>
+      <p>jquery es una librería javascript que se esta utilizando mucho,
+una de las caracteristicas de esta librería es su version bien
+comprimida y comparte muchas de características de prototype
+(una de las diferencias son la llamada de metodos)..</p>
+   <!--Este Div Contiene El quinto Visor De Imagenes-->
+   <div>
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container5">
+<div class="ws_images"><ul>
+		<li><img src="data5/images/jquery.jpg" alt="jquery" title="jquery" id="wows5_0"/></li>
+		<li><img src="data5/images/jquery1.png" alt="Jquery1" title="Jquery1" id="wows5_1"/></li>
+		<li><a href="http://wowslider.net"><img src="data5/images/jquery2.jpg" alt="jquery slideshow" title="jquery2" id="wows5_2"/></a></li>
+		<li><img src="data5/images/jquery3.png" alt="jquery3" title="jquery3" id="wows5_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="jquery"><span><img src="data5/tooltips/jquery.jpg" alt="jquery"/>1</span></a>
+		<a href="#" title="Jquery1"><span><img src="data5/tooltips/jquery1.png" alt="Jquery1"/>2</span></a>
+		<a href="#" title="jquery2"><span><img src="data5/tooltips/jquery2.jpg" alt="jquery2"/>3</span></a>
+		<a href="#" title="jquery3"><span><img src="data5/tooltips/jquery3.png" alt="jquery3"/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">cssslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine5/wowslider.js"></script>
+<script type="text/javascript" src="engine5/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+   </div>
+	   <div>
+		   <div data-role="main" class="ui-content" align="center">
+           <div style="width:80%">
+           <ul data-role="controlgroup" data-type="vertical" data-theme="c"
+           <li class="ui-first-child ui-last-child">
+           <a href= "https://rolandocaldas.com/php"  data-role="button">
+           <h2>Jquery Movile</h2>
+           </a>
+           </ul>
+           </div>
+           </div> 
+		 </div>
+    </div>
+  </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+     <img src ="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Proyecto Final Tutorial DAW</h4>
+      <h3>Jesus Emmanuel González Ramírez</h3>
+   </div>
+  </div>
+  <div data-role="page" id="Pagina10" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>PHP</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div > 
+     <h2>Introducción</h2>
+      <p>PHP (acrónimo recursivo de PHP: Hypertext Preprocessor) es un lenguaje de código abierto muy popular especialmente adecuado para el desarrollo web y que puede ser incrustado en HTML.</p>
+    <p>Lo mejor de utilizar PHP es su extrema simplicidad para el principiante, pero a su vez ofrece muchas características avanzadas para los programadores profesionales. No sienta miedo de leer la larga lista de características de PHP. En unas pocas horas podrá empezar a escribir sus primeros scripts.</p>
+		 <h2>Variables</h2>
+		 <p>PHP admite el concepto de funciones variables. Esto significa que si un nombre de variable tiene paréntesis anexos a él, PHP buscará una función con el mismo nombre que lo evaluado por la variable, e intentará ejecutarla. Entre otras cosas, esto se puede usar para implementar llamadas de retorno, tablas de funciones, y así sucesivamente.
+
+Las funciones variables no funcionarán con constructores de lenguaje como echo, print, unset(), isset(), empty(), include, require y similares. Utilice funciones de envoltura para hacer uso de cualquiera de estos constructores como funciones variables.</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ImagenSus_003','','imagenes/archivos/php2.jpg',1)"><img src="imagenes/archivos/php1.jpg" width="40%" height="40%" id="ImagenSus_003"></a>
+    </div>
+  </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+     <img src ="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Proyecto Final </h4>
+      <h3>Jesus Emmanuel González Ramírez</h3>
+   </div>
+  </div>
+  <div data-role="page" id="Pagina11" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>Datos Del Desarrollador</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div style="align-content: center;" > 
+     <h2>Jesus Emmanuel González Ramírez</h2>
+      <table style="font-size: 18px">
+        <tr>
+          <th>Grupo</th>
+          <th> "F"</th>
+        </tr>
+        <tr>
+          <th>Semestre</th>
+          <th> 4°</th>
+        </tr>
+        <tr>
+          <th>Submodulo</th>
+          <th>Desarrolla Aplicaciones Móviles</th>
+        </tr>
+        <tr>
+          <th>Docente</th>
+          <th>Ing. José Antonio Gomez Hernandez</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+	  <div data-role="main" class="ul-content">
+ <div data-role="collapsible" data-content-theme="false">
+  <h1> Como Hacer Tu Pagina</h1>
+   <div>
+   <br>
+   </div>
+    <div>
+	   <div data-role="main" class="ui-content" align="center">
+       <div style="width:80%">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="c"
+       <li class="ui-first-child ui-last-child">
+       <a href= "https://www.youtube.com/watch?v=KF3ySwBY0_8"  data-role="button">
+       <h2>Procedimiento</h2>
+       </a>
+       </ul>
+       </div>
+       </div> 
+    </div>
+  </div>
+</div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+     <img src ="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Proyecto Final Tutorial DAW </h4>
+      <h3>Jesus Emmanuel González Ramírez</h3>
+   </div>
+  </div>
+</body>
+</html>
